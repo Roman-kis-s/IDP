@@ -1,0 +1,62 @@
+html, body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    height: 5%;
+    justify-content: space-around;
+    align-items: center;
+    background: darkslategrey;
+}
+
+.main-space {
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.command-select {
+
+}
+
+.shell-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 30%;
+    height: 50%;
+    background: darkslategrey;
+}
+
+.shell-control {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.command-input {
+    width: 70%;
+}
+
+.launch-button {
+    height: 50%;
+    width: 20%;
+}
+
+.terminal-screen {
+    overflow: scroll;
+    height: 90%;
+    width: 100%;
+    background: cadetblue;
+}

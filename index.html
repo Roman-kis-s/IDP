@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Command center</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <select name="commandSelect" id="commandSelect" class="command-select" onchange="createPromptShell(this)">
+            <option value="">Select command</option>
+            <option value="ping">Ping</option>
+            <option value="pathping">Pathping</option>
+            <option value="tracert">Tracert</option>
+        </select>
+    </header>
+    <div id="mainSpace" class="main-space"></div>
+    <script src="script.js?v=10"></script>
+</body>
+</html>
